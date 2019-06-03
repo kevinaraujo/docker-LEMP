@@ -9,3 +9,5 @@ error.log2018/05/22 20:51:53 [error] 6#6: *2 directory index of "/" is forbidden
 2018/05/22 21:08:50 [error] 7#7: *2 "/code/index.php" is not found (2: No such file or directory), client: 172.17.0.1, server: docker.local, request: "GET / HTTP/1.1", host: "docker.local"
 2018/05/22 21:08:58 [error] 7#7: *2 "/code/index.php" is not found (2: No such file or directory), client: 172.17.0.1, server: docker.local, request: "GET / HTTP/1.1", host: "docker.local"
 2018/05/22 21:08:58 [error] 7#7: *2 "/code/index.php" is not found (2: No such file or directory), client: 172.17.0.1, server: docker.local, request: "GET / HTTP/1.1", host: "docker.local"
+2019/06/03 20:55:24 [error] 6#6: *1 open() "/code/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: docker.local, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/06/03 21:44:05 [error] 6#6: *1 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: docker.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
